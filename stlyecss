@@ -20,3 +20,66 @@ nav a{
 /* Challenge 11: Make the font size bigger and the color of the text to blue for elements with a class of "main" */
 
 
+   body {
+      margin: 0;
+        font-family: Arial, sans-serif;
+          background-color: #f4f4f4;
+          }
+
+          .header {
+            background-color: #006847;
+              color: white;
+                text-align: center;
+                  padding: 30px;
+                  }
+
+                  .navbar {
+                    display: flex;
+                      justify-content: center;
+                        background-color: #ce1126;
+                        }
+
+                        .navbar a {
+                          color: white;
+                            padding: 15px 20px;
+                              text-decoration: none;
+                              }
+
+                              .navbar a:hover {
+                                background-color: #a50d1a;
+                                }
+
+                                .content {
+                                  display: flex;
+                                    padding: 30px;
+                                      gap: 20px;
+                                      }
+
+                                      .content img {
+                                        width: 300px;
+                                          border-radius: 10px;
+                                          }
+
+                                          .footer {
+                                            text-align: center;
+                                              padding: 15px;
+                                                background-color: #333;
+                                                  color: white;
+                                                  }
+
+         .gallery {
+            display: flex;
+              gap: 20px;
+                justify-content: center;
+                }
+
+                .gallery img {
+                  width: 250px;
+                    transition: transform 0.3s, filter 0.3s;
+                    }
+
+                    .gallery img:hover {
+                      transform: scale(1.1);
+                        filter: brightness(1.2);
+                        }                                                 
+
